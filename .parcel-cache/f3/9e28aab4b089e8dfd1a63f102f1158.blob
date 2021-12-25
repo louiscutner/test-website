@@ -4373,6 +4373,14 @@ video {
   background-image: url('bc1357b4f8fb1c8d6b3caf5dce22754b');
 }
 
+.bg-skyddapage {
+  background-image: url('f3889936a6d50dbf4f4b386ebebbfcf8');
+}
+
+.bg-skyddapage2 {
+  background-image: url('4638d96cd4d8037af83961f192eb7541');
+}
+
 .bg-tontu {
   background-image: url('8f7c55978f1b4edf0d427bdea5b0fd78');
 }
@@ -11803,6 +11811,10 @@ video {
   height: 15rem;
 }
 
+.h-61 {
+  height: 17.813rem;
+}
+
 .h-64 {
   height: 16rem;
 }
@@ -11821,6 +11833,10 @@ video {
 
 .h-85 {
   height: 20.875rem;
+}
+
+.h-87 {
+  height: 21.813rem;
 }
 
 .h-90 {
@@ -11969,6 +11985,10 @@ video {
 
 .h-8\/10 {
   height: 75%;
+}
+
+.h-9\/10 {
+  height: 90%;
 }
 
 .text-xs {
@@ -36106,6 +36126,14 @@ video {
     background-image: url('bc1357b4f8fb1c8d6b3caf5dce22754b');
   }
 
+  .sm\:bg-skyddapage {
+    background-image: url('f3889936a6d50dbf4f4b386ebebbfcf8');
+  }
+
+  .sm\:bg-skyddapage2 {
+    background-image: url('4638d96cd4d8037af83961f192eb7541');
+  }
+
   .sm\:bg-tontu {
     background-image: url('8f7c55978f1b4edf0d427bdea5b0fd78');
   }
@@ -43536,6 +43564,10 @@ video {
     height: 15rem;
   }
 
+  .sm\:h-61 {
+    height: 17.813rem;
+  }
+
   .sm\:h-64 {
     height: 16rem;
   }
@@ -43554,6 +43586,10 @@ video {
 
   .sm\:h-85 {
     height: 20.875rem;
+  }
+
+  .sm\:h-87 {
+    height: 21.813rem;
   }
 
   .sm\:h-90 {
@@ -43702,6 +43738,10 @@ video {
 
   .sm\:h-8\/10 {
     height: 75%;
+  }
+
+  .sm\:h-9\/10 {
+    height: 90%;
   }
 
   .sm\:text-xs {
@@ -67694,6 +67734,14 @@ video {
     background-image: url('bc1357b4f8fb1c8d6b3caf5dce22754b');
   }
 
+  .md\:bg-skyddapage {
+    background-image: url('f3889936a6d50dbf4f4b386ebebbfcf8');
+  }
+
+  .md\:bg-skyddapage2 {
+    background-image: url('4638d96cd4d8037af83961f192eb7541');
+  }
+
   .md\:bg-tontu {
     background-image: url('8f7c55978f1b4edf0d427bdea5b0fd78');
   }
@@ -75124,6 +75172,10 @@ video {
     height: 15rem;
   }
 
+  .md\:h-61 {
+    height: 17.813rem;
+  }
+
   .md\:h-64 {
     height: 16rem;
   }
@@ -75142,6 +75194,10 @@ video {
 
   .md\:h-85 {
     height: 20.875rem;
+  }
+
+  .md\:h-87 {
+    height: 21.813rem;
   }
 
   .md\:h-90 {
@@ -75290,6 +75346,10 @@ video {
 
   .md\:h-8\/10 {
     height: 75%;
+  }
+
+  .md\:h-9\/10 {
+    height: 90%;
   }
 
   .md\:text-xs {
@@ -99282,6 +99342,14 @@ video {
     background-image: url('bc1357b4f8fb1c8d6b3caf5dce22754b');
   }
 
+  .lg\:bg-skyddapage {
+    background-image: url('f3889936a6d50dbf4f4b386ebebbfcf8');
+  }
+
+  .lg\:bg-skyddapage2 {
+    background-image: url('4638d96cd4d8037af83961f192eb7541');
+  }
+
   .lg\:bg-tontu {
     background-image: url('8f7c55978f1b4edf0d427bdea5b0fd78');
   }
@@ -106712,6 +106780,10 @@ video {
     height: 15rem;
   }
 
+  .lg\:h-61 {
+    height: 17.813rem;
+  }
+
   .lg\:h-64 {
     height: 16rem;
   }
@@ -106730,6 +106802,10 @@ video {
 
   .lg\:h-85 {
     height: 20.875rem;
+  }
+
+  .lg\:h-87 {
+    height: 21.813rem;
   }
 
   .lg\:h-90 {
@@ -106878,6 +106954,10 @@ video {
 
   .lg\:h-8\/10 {
     height: 75%;
+  }
+
+  .lg\:h-9\/10 {
+    height: 90%;
   }
 
   .lg\:text-xs {
@@ -130870,6 +130950,14 @@ video {
     background-image: url('bc1357b4f8fb1c8d6b3caf5dce22754b');
   }
 
+  .xl\:bg-skyddapage {
+    background-image: url('f3889936a6d50dbf4f4b386ebebbfcf8');
+  }
+
+  .xl\:bg-skyddapage2 {
+    background-image: url('4638d96cd4d8037af83961f192eb7541');
+  }
+
   .xl\:bg-tontu {
     background-image: url('8f7c55978f1b4edf0d427bdea5b0fd78');
   }
@@ -138300,6 +138388,10 @@ video {
     height: 15rem;
   }
 
+  .xl\:h-61 {
+    height: 17.813rem;
+  }
+
   .xl\:h-64 {
     height: 16rem;
   }
@@ -138318,6 +138410,10 @@ video {
 
   .xl\:h-85 {
     height: 20.875rem;
+  }
+
+  .xl\:h-87 {
+    height: 21.813rem;
   }
 
   .xl\:h-90 {
@@ -138466,6 +138562,10 @@ video {
 
   .xl\:h-8\/10 {
     height: 75%;
+  }
+
+  .xl\:h-9\/10 {
+    height: 90%;
   }
 
   .xl\:text-xs {
@@ -162458,6 +162558,14 @@ video {
     background-image: url('bc1357b4f8fb1c8d6b3caf5dce22754b');
   }
 
+  .\32xl\:bg-skyddapage {
+    background-image: url('f3889936a6d50dbf4f4b386ebebbfcf8');
+  }
+
+  .\32xl\:bg-skyddapage2 {
+    background-image: url('4638d96cd4d8037af83961f192eb7541');
+  }
+
   .\32xl\:bg-tontu {
     background-image: url('8f7c55978f1b4edf0d427bdea5b0fd78');
   }
@@ -169888,6 +169996,10 @@ video {
     height: 15rem;
   }
 
+  .\32xl\:h-61 {
+    height: 17.813rem;
+  }
+
   .\32xl\:h-64 {
     height: 16rem;
   }
@@ -169906,6 +170018,10 @@ video {
 
   .\32xl\:h-85 {
     height: 20.875rem;
+  }
+
+  .\32xl\:h-87 {
+    height: 21.813rem;
   }
 
   .\32xl\:h-90 {
@@ -170054,6 +170170,10 @@ video {
 
   .\32xl\:h-8\/10 {
     height: 75%;
+  }
+
+  .\32xl\:h-9\/10 {
+    height: 90%;
   }
 
   .\32xl\:text-xs {
