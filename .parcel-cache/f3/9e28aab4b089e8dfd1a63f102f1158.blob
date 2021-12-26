@@ -11783,12 +11783,20 @@ video {
   height: 9rem;
 }
 
+.h-38 {
+  height: 9.5rem;
+}
+
 .h-40 {
   height: 10rem;
 }
 
 .h-44 {
   height: 11rem;
+}
+
+.h-46 {
+  height: 11.5rem;
 }
 
 .h-48 {
@@ -11813,6 +11821,10 @@ video {
 
 .h-61 {
   height: 17.813rem;
+}
+
+.h-62 {
+  height: 15.5rem;
 }
 
 .h-64 {
@@ -12058,6 +12070,14 @@ video {
 
 .text-xxs {
   font-size: 0.625rem;
+}
+
+.text-xxs2 {
+  font-size: 0.5rem;
+}
+
+.text-xs2 {
+  font-size: 0.725rem;
 }
 
 .text-4\.5xl {
@@ -27878,6 +27898,10 @@ video {
   width: 11rem;
 }
 
+.w-46 {
+  width: 11.5rem;
+}
+
 .w-48 {
   width: 12rem;
 }
@@ -43536,12 +43560,20 @@ video {
     height: 9rem;
   }
 
+  .sm\:h-38 {
+    height: 9.5rem;
+  }
+
   .sm\:h-40 {
     height: 10rem;
   }
 
   .sm\:h-44 {
     height: 11rem;
+  }
+
+  .sm\:h-46 {
+    height: 11.5rem;
   }
 
   .sm\:h-48 {
@@ -43566,6 +43598,10 @@ video {
 
   .sm\:h-61 {
     height: 17.813rem;
+  }
+
+  .sm\:h-62 {
+    height: 15.5rem;
   }
 
   .sm\:h-64 {
@@ -43811,6 +43847,14 @@ video {
 
   .sm\:text-xxs {
     font-size: 0.625rem;
+  }
+
+  .sm\:text-xxs2 {
+    font-size: 0.5rem;
+  }
+
+  .sm\:text-xs2 {
+    font-size: 0.725rem;
   }
 
   .sm\:text-4\.5xl {
@@ -59618,6 +59662,10 @@ video {
     width: 11rem;
   }
 
+  .sm\:w-46 {
+    width: 11.5rem;
+  }
+
   .sm\:w-48 {
     width: 12rem;
   }
@@ -75144,12 +75192,20 @@ video {
     height: 9rem;
   }
 
+  .md\:h-38 {
+    height: 9.5rem;
+  }
+
   .md\:h-40 {
     height: 10rem;
   }
 
   .md\:h-44 {
     height: 11rem;
+  }
+
+  .md\:h-46 {
+    height: 11.5rem;
   }
 
   .md\:h-48 {
@@ -75174,6 +75230,10 @@ video {
 
   .md\:h-61 {
     height: 17.813rem;
+  }
+
+  .md\:h-62 {
+    height: 15.5rem;
   }
 
   .md\:h-64 {
@@ -75419,6 +75479,14 @@ video {
 
   .md\:text-xxs {
     font-size: 0.625rem;
+  }
+
+  .md\:text-xxs2 {
+    font-size: 0.5rem;
+  }
+
+  .md\:text-xs2 {
+    font-size: 0.725rem;
   }
 
   .md\:text-4\.5xl {
@@ -91226,6 +91294,10 @@ video {
     width: 11rem;
   }
 
+  .md\:w-46 {
+    width: 11.5rem;
+  }
+
   .md\:w-48 {
     width: 12rem;
   }
@@ -106752,12 +106824,20 @@ video {
     height: 9rem;
   }
 
+  .lg\:h-38 {
+    height: 9.5rem;
+  }
+
   .lg\:h-40 {
     height: 10rem;
   }
 
   .lg\:h-44 {
     height: 11rem;
+  }
+
+  .lg\:h-46 {
+    height: 11.5rem;
   }
 
   .lg\:h-48 {
@@ -106782,6 +106862,10 @@ video {
 
   .lg\:h-61 {
     height: 17.813rem;
+  }
+
+  .lg\:h-62 {
+    height: 15.5rem;
   }
 
   .lg\:h-64 {
@@ -107027,6 +107111,14 @@ video {
 
   .lg\:text-xxs {
     font-size: 0.625rem;
+  }
+
+  .lg\:text-xxs2 {
+    font-size: 0.5rem;
+  }
+
+  .lg\:text-xs2 {
+    font-size: 0.725rem;
   }
 
   .lg\:text-4\.5xl {
@@ -122834,6 +122926,10 @@ video {
     width: 11rem;
   }
 
+  .lg\:w-46 {
+    width: 11.5rem;
+  }
+
   .lg\:w-48 {
     width: 12rem;
   }
@@ -138360,12 +138456,20 @@ video {
     height: 9rem;
   }
 
+  .xl\:h-38 {
+    height: 9.5rem;
+  }
+
   .xl\:h-40 {
     height: 10rem;
   }
 
   .xl\:h-44 {
     height: 11rem;
+  }
+
+  .xl\:h-46 {
+    height: 11.5rem;
   }
 
   .xl\:h-48 {
@@ -138390,6 +138494,10 @@ video {
 
   .xl\:h-61 {
     height: 17.813rem;
+  }
+
+  .xl\:h-62 {
+    height: 15.5rem;
   }
 
   .xl\:h-64 {
@@ -138635,6 +138743,14 @@ video {
 
   .xl\:text-xxs {
     font-size: 0.625rem;
+  }
+
+  .xl\:text-xxs2 {
+    font-size: 0.5rem;
+  }
+
+  .xl\:text-xs2 {
+    font-size: 0.725rem;
   }
 
   .xl\:text-4\.5xl {
@@ -154442,6 +154558,10 @@ video {
     width: 11rem;
   }
 
+  .xl\:w-46 {
+    width: 11.5rem;
+  }
+
   .xl\:w-48 {
     width: 12rem;
   }
@@ -169968,12 +170088,20 @@ video {
     height: 9rem;
   }
 
+  .\32xl\:h-38 {
+    height: 9.5rem;
+  }
+
   .\32xl\:h-40 {
     height: 10rem;
   }
 
   .\32xl\:h-44 {
     height: 11rem;
+  }
+
+  .\32xl\:h-46 {
+    height: 11.5rem;
   }
 
   .\32xl\:h-48 {
@@ -169998,6 +170126,10 @@ video {
 
   .\32xl\:h-61 {
     height: 17.813rem;
+  }
+
+  .\32xl\:h-62 {
+    height: 15.5rem;
   }
 
   .\32xl\:h-64 {
@@ -170243,6 +170375,14 @@ video {
 
   .\32xl\:text-xxs {
     font-size: 0.625rem;
+  }
+
+  .\32xl\:text-xxs2 {
+    font-size: 0.5rem;
+  }
+
+  .\32xl\:text-xs2 {
+    font-size: 0.725rem;
   }
 
   .\32xl\:text-4\.5xl {
@@ -186048,6 +186188,10 @@ video {
 
   .\32xl\:w-44 {
     width: 11rem;
+  }
+
+  .\32xl\:w-46 {
+    width: 11.5rem;
   }
 
   .\32xl\:w-48 {

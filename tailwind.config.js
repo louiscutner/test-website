@@ -11,6 +11,8 @@ module.exports = {
       },
       fontSize: {
         xxs: "0.625rem",
+        xxs2: "0.5rem",
+        xs2: "0.725rem",
         "4.5xl": "2.5rem",
         "6.5xl": "4.063rem",
         "7.5xl": "5rem",
@@ -38,8 +40,11 @@ module.exports = {
         "9/10": "90%",
         18: "4.375rem",
         30: "7.5rem",
+        38: "9.5rem",
+        46: "11.5rem",
         50: "12.5rem",
         61: "17.813rem",
+        62: "15.5rem",
         70: "17.5rem",
         72: "18rem",
         85: "20.875rem",
@@ -59,6 +64,7 @@ module.exports = {
       },
       width: {
         30: "7.5rem",
+        46: "11.5rem",
         50: "12.5rem",
         70: "17.5rem",
         90: "22.5rem",
