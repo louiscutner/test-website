@@ -20,7 +20,7 @@
     />
   </head>
 
-  <body>
+  <body id="skydda">
     <div
       class="
         w-full
@@ -1020,39 +1020,647 @@
         <strong class="font-medium">stages of prototyping</strong> and the
         purpose of each <strong class="font-medium">iteration.</strong>
       </h1>
-      <img
-        src="images/tontu/apps.svg"
-        class="hidden md:block w-150 xl:w-270 h-auto mt-10 mx-auto"
-      />
-      <div class="md:hidden mt-10 flex flex-row justify-between w-70 mx-auto">
-        <img
-          id="skydda-arrow-left"
-          src="images/tontu/left-arrow.svg"
-          class="w-auto h-8 my-auto"
-        />
-        <img
-          src="images/tontu/app1.svg"
-          class="w-auto h-80 my-auto skydda-list"
-        />
-        <img
-          src="images/tontu/app2.svg"
-          class="w-auto h-80 my-auto hidden skydda-list"
-        />
-        <img
-          src="images/tontu/app3.svg"
-          class="w-auto h-80 my-auto hidden skydda-list"
-        />
-        <img
-          src="images/tontu/app4.svg"
-          class="w-auto h-80 my-auto hidden skydda-list"
-        />
-        <img
-          id="skydda-arrow-right"
-          src="images/tontu/right-arrow.svg"
-          class="w-auto h-8 my-auto"
-        />
+      <div class="md:hidden w-full mt-10 flex flex-row justify-evenly mx-auto">
+        <div class="h-auto w-10 relative">
+          <img
+            id="skydda-arrow-left-faded"
+            src="images/tontu/left-arrow-faded.svg"
+            class="
+              transition-all
+              duration-200
+              ease-in-out
+              absolute
+              top-48
+              delay-75
+            "
+          />
+          <img
+            id="skydda-arrow-left"
+            src="images/tontu/left-arrow.svg"
+            class="
+              opacity-0
+              transition-all
+              duration-200
+              ease-in-out
+              absolute
+              top-48
+              transform
+              scale-100
+              hover:scale-110 hover:-translate-y-1
+              delay-75
+              cursor-pointer
+            "
+          />
+        </div>
+        <div class="h-auto w-auto">
+          <div class="w-36 h-114 text-center mx-auto dropshadow2 skydda-list">
+            <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+              <h1
+                class="
+                  font-roboto font-medium
+                  text-xs
+                  h-auto
+                  w-36
+                  text-left
+                  pt-3.5
+                  px-4
+                  uppercase
+                "
+              >
+                CARDBOARD LO-FI DESIGN
+              </h1>
+              <h1
+                class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+              >
+                This initial prototype was shown to users to validate the
+                concept of using sidebars using magnets.
+              </h1>
+              <img
+                src="images/skydda/prototype1.svg"
+                class="w-32 h-auto mx-auto py-3"
+              />
+            </div>
+          </div>
+          <div
+            class="
+              w-36
+              h-114
+              text-center
+              mx-auto
+              dropshadow2
+              hidden
+              skydda-list
+            "
+          >
+            <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+              <h1
+                class="
+                  font-roboto font-medium
+                  text-xs
+                  h-auto
+                  w-36
+                  text-left
+                  pt-3.5
+                  px-4
+                  uppercase
+                "
+              >
+                RECTANGULAR MAGNETS
+              </h1>
+              <h1
+                class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+              >
+                This prototype tested using small magnets, however the
+                installation was too fiddly, and the strength was too weak.
+              </h1>
+              <img
+                src="images/skydda/prototype2.svg"
+                class="w-32 h-auto mx-auto py-3"
+              />
+            </div>
+          </div>
+          <div
+            class="
+              w-36
+              h-114
+              text-center
+              mx-auto
+              dropshadow2
+              hidden
+              skydda-list
+            "
+          >
+            <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+              <h1
+                class="
+                  font-roboto font-medium
+                  text-xs
+                  h-auto
+                  w-36
+                  text-left
+                  pt-3.5
+                  px-4
+                  uppercase
+                "
+              >
+                POLARISED MAGNETIC STRIP
+              </h1>
+              <h1
+                class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+              >
+                To increase the strength, polarised magnetic strips were tested
+                but their magnetic strength was still too weak.
+              </h1>
+              <img
+                src="images/skydda/prototype3.svg"
+                class="w-32 h-auto mx-auto py-3"
+              />
+            </div>
+          </div>
+          <div
+            class="
+              w-36
+              h-114
+              text-center
+              mx-auto
+              dropshadow2
+              hidden
+              skydda-list
+            "
+          >
+            <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+              <h1
+                class="
+                  font-roboto font-medium
+                  text-xs
+                  h-auto
+                  w-36
+                  text-left
+                  pt-3.5
+                  px-4
+                  uppercase
+                "
+              >
+                3M ADHESIVE MAGNETIC STRIP
+              </h1>
+              <h1
+                class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+              >
+                For optimal strength, 3M strips were used, and the polarisation
+                on the magnets stopped the rims sliding forward.
+              </h1>
+              <img
+                src="images/skydda/prototype4.svg"
+                class="w-32 h-auto mx-auto py-3"
+              />
+            </div>
+          </div>
+          <div
+            class="
+              w-36
+              h-114
+              text-center
+              mx-auto
+              dropshadow2
+              hidden
+              skydda-list
+            "
+          >
+            <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+              <h1
+                class="
+                  font-roboto font-medium
+                  text-xs
+                  h-auto
+                  w-36
+                  text-left
+                  pt-3.5
+                  px-4
+                  uppercase
+                "
+              >
+                AESTHETIC REDESIGN
+              </h1>
+              <h1
+                class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+              >
+                Responding to user feedback, the form was redesigned to be more
+                aesthetically pleasing.
+              </h1>
+              <img
+                src="images/skydda/prototype5.svg"
+                class="w-32 h-auto mx-auto py-3"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="h-auto w-10 relative">
+          <img
+            id="skydda-arrow-right-faded"
+            src="images/tontu/right-arrow-faded.svg"
+            class="
+              transition-all
+              duration-200
+              ease-in-out
+              absolute
+              opacity-0
+              top-48
+              delay-75
+            "
+          />
+          <img
+            id="skydda-arrow-right"
+            src="images/tontu/right-arrow.svg"
+            class="
+              transition-all
+              duration-200
+              ease-in-out
+              absolute
+              top-48
+              transform
+              scale-100
+              hover:scale-110 hover:-translate-y-1
+              delay-75
+              cursor-pointer
+            "
+          />
+        </div>
+      </div>
+      <div
+        class="
+          hidden
+          md:flex
+          xl:hidden
+          mt-10
+          flex-row
+          justify-evenly
+          mx-auto
+          w-170
+        "
+      >
+        <div class="h-auto w-10 relative">
+          <img
+            id="skydda-arrow-left-faded-md"
+            src="images/tontu/left-arrow-faded.svg"
+            class="
+              transition-all
+              duration-200
+              ease-in-out
+              absolute
+              top-48
+              delay-75
+            "
+          />
+          <img
+            id="skydda-arrow-left-md"
+            src="images/tontu/left-arrow.svg"
+            class="
+              opacity-0
+              transition-all
+              duration-200
+              ease-in-out
+              absolute
+              top-48
+              transform
+              scale-100
+              hover:scale-110 hover:-translate-y-1
+              delay-75
+              cursor-pointer
+            "
+          />
+        </div>
+        <div class="h-auto w-100 flex flex-row justify-evenly">
+          <div
+            class="w-36 h-114 text-center mx-auto dropshadow2 skydda-list-md"
+          >
+            <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+              <h1
+                class="
+                  font-roboto font-medium
+                  text-xs
+                  h-auto
+                  w-36
+                  text-left
+                  pt-3.5
+                  px-4
+                  uppercase
+                "
+              >
+                CARDBOARD LO-FI DESIGN
+              </h1>
+              <h1
+                class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+              >
+                This initial prototype was shown to users to validate the
+                concept of using sidebars using magnets.
+              </h1>
+              <img
+                src="images/skydda/prototype1.svg"
+                class="w-32 h-auto mx-auto py-3"
+              />
+            </div>
+          </div>
+          <div
+            class="w-36 h-114 text-center mx-auto dropshadow2 skydda-list-md"
+          >
+            <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+              <h1
+                class="
+                  font-roboto font-medium
+                  text-xs
+                  h-auto
+                  w-36
+                  text-left
+                  pt-3.5
+                  px-4
+                  uppercase
+                "
+              >
+                RECTANGULAR MAGNETS
+              </h1>
+              <h1
+                class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+              >
+                This prototype tested using small magnets, however the
+                installation was too fiddly, and the strength was too weak.
+              </h1>
+              <img
+                src="images/skydda/prototype2.svg"
+                class="w-32 h-auto mx-auto py-3"
+              />
+            </div>
+          </div>
+          <div
+            class="
+              w-36
+              h-114
+              text-center
+              mx-auto
+              dropshadow2
+              hidden
+              skydda-list-md
+            "
+          >
+            <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+              <h1
+                class="
+                  font-roboto font-medium
+                  text-xs
+                  h-auto
+                  w-36
+                  text-left
+                  pt-3.5
+                  px-4
+                  uppercase
+                "
+              >
+                POLARISED MAGNETIC STRIP
+              </h1>
+              <h1
+                class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+              >
+                To increase the strength, polarised magnetic strips were tested
+                but their magnetic strength was still too weak.
+              </h1>
+              <img
+                src="images/skydda/prototype3.svg"
+                class="w-32 h-auto mx-auto py-3"
+              />
+            </div>
+          </div>
+          <div
+            class="
+              w-36
+              h-114
+              text-center
+              mx-auto
+              dropshadow2
+              hidden
+              skydda-list-md
+            "
+          >
+            <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+              <h1
+                class="
+                  font-roboto font-medium
+                  text-xs
+                  h-auto
+                  w-36
+                  text-left
+                  pt-3.5
+                  px-4
+                  uppercase
+                "
+              >
+                3M ADHESIVE MAGNETIC STRIP
+              </h1>
+              <h1
+                class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+              >
+                For optimal strength, 3M strips were used, and the polarisation
+                on the magnets stopped the rims sliding forward.
+              </h1>
+              <img
+                src="images/skydda/prototype4.svg"
+                class="w-32 h-auto mx-auto py-3"
+              />
+            </div>
+          </div>
+          <div
+            class="
+              w-36
+              h-114
+              text-center
+              mx-auto
+              dropshadow2
+              hidden
+              skydda-list-md
+            "
+          >
+            <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+              <h1
+                class="
+                  font-roboto font-medium
+                  text-xs
+                  h-auto
+                  w-36
+                  text-left
+                  pt-3.5
+                  px-4
+                  uppercase
+                "
+              >
+                AESTHETIC REDESIGN
+              </h1>
+              <h1
+                class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+              >
+                Responding to user feedback, the form was redesigned to be more
+                aesthetically pleasing.
+              </h1>
+              <img
+                src="images/skydda/prototype5.svg"
+                class="w-32 h-auto mx-auto py-3"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="h-auto w-10 relative">
+          <img
+            id="skydda-arrow-right-faded-md"
+            src="images/tontu/right-arrow-faded.svg"
+            class="
+              transition-all
+              duration-200
+              ease-in-out
+              absolute
+              opacity-0
+              top-48
+              delay-75
+            "
+          />
+          <img
+            id="skydda-arrow-right-md"
+            src="images/tontu/right-arrow.svg"
+            class="
+              transition-all
+              duration-200
+              ease-in-out
+              absolute
+              top-48
+              transform
+              scale-100
+              hover:scale-110 hover:-translate-y-1
+              delay-75
+              cursor-pointer
+            "
+          />
+        </div>
+      </div>
+      <div class="hidden xl:flex flex-row justify-between w-270 mx-auto py-10">
+        <div class="w-36 h-114 text-center dropshadow2">
+          <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+            <h1
+              class="
+                font-roboto font-medium
+                text-xs
+                h-auto
+                w-36
+                text-left
+                pt-3.5
+                px-4
+                uppercase
+              "
+            >
+              CARDBOARD LO-FI DESIGN
+            </h1>
+            <h1
+              class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+            >
+              This initial prototype was shown to users to validate the concept
+              of using sidebars using magnets.
+            </h1>
+            <img
+              src="images/skydda/prototype1.svg"
+              class="w-32 h-auto mx-auto py-3"
+            />
+          </div>
+        </div>
+        <div class="w-36 h-114 text-center dropshadow2">
+          <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+            <h1
+              class="
+                font-roboto font-medium
+                text-xs
+                h-auto
+                w-36
+                text-left
+                pt-3.5
+                px-4
+                uppercase
+              "
+            >
+              RECTANGULAR MAGNETS
+            </h1>
+            <h1
+              class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+            >
+              This prototype tested using small magnets, however the
+              installation was too fiddly, and the strength was too weak.
+            </h1>
+            <img
+              src="images/skydda/prototype2.svg"
+              class="w-32 h-auto mx-auto py-3"
+            />
+          </div>
+        </div>
+        <div class="w-36 h-114 text-center dropshadow2">
+          <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+            <h1
+              class="
+                font-roboto font-medium
+                text-xs
+                h-auto
+                w-36
+                text-left
+                pt-3.5
+                px-4
+                uppercase
+              "
+            >
+              POLARISED MAGNETIC STRIP
+            </h1>
+            <h1
+              class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+            >
+              To increase the strength, polarised magnetic strips were tested
+              but their magnetic strength was still too weak.
+            </h1>
+            <img
+              src="images/skydda/prototype3.svg"
+              class="w-32 h-auto mx-auto py-3"
+            />
+          </div>
+        </div>
+        <div class="w-36 h-114 text-center dropshadow2">
+          <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+            <h1
+              class="
+                font-roboto font-medium
+                text-xs
+                h-auto
+                w-36
+                text-left
+                pt-3.5
+                px-4
+                uppercase
+              "
+            >
+              3M ADHESIVE MAGNETIC STRIP
+            </h1>
+            <h1
+              class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+            >
+              For optimal strength, 3M strips were used, and the polarisation on
+              the magnets stopped the rims sliding forward.
+            </h1>
+            <img
+              src="images/skydda/prototype4.svg"
+              class="w-32 h-auto mx-auto py-3"
+            />
+          </div>
+        </div>
+        <div class="w-36 h-114 text-center dropshadow2">
+          <div class="h-114 w-36 bg-bg_grey_darker rounded-2xl">
+            <h1
+              class="
+                font-roboto font-medium
+                text-xs
+                h-auto
+                w-36
+                text-left
+                pt-3.5
+                px-4
+                uppercase
+              "
+            >
+              AESTHETIC REDESIGN
+            </h1>
+            <h1
+              class="font-roboto font-light text-xxs w-36 text-left px-4 pt-2"
+            >
+              Responding to user feedback, the form was redesigned to be more
+              aesthetically pleasing.
+            </h1>
+            <img
+              src="images/skydda/prototype5.svg"
+              class="w-32 h-auto mx-auto py-3"
+            />
+          </div>
+        </div>
       </div>
     </div>
+
     <script type="module" src="index.js"></script>
   </body>
 </html>

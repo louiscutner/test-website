@@ -8,6 +8,7 @@ module.exports = {
         tontu: "#00816D",
         skydda: "#D31344",
         bg_grey: "#F7F7F7",
+        bg_grey_darker: "#F1F0F0",
       },
       fontSize: {
         xxs: "0.625rem",
@@ -52,6 +53,7 @@ module.exports = {
         90: "22.5rem",
         100: "25rem",
         110: "27.5rem",
+        114: "28.5rem",
         120: "30rem",
         130: "32.5rem",
         140: "35rem",

@@ -52,6 +52,11 @@
     drop-shadow(15px 15px 25px rgba(204, 204, 204, 0.53));
 }
 
+.dropshadow2 {
+  filter: drop-shadow(-15px -15px 20px rgb(255, 255, 255))
+    drop-shadow(15px 15px 20px rgba(187, 187, 187, 0.53));
+}
+
 .tontutext {
   font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
 }
