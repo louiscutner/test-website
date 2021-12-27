@@ -1,28 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
+  <head><link rel="stylesheet" href="/tontu.HASH_REF_fe692801b07b3f6b4c2872127a9ebcaf.css">
+    <meta charset="utf-8">
     <title>Louis Cutner</title>
-    <meta name="viewport" content="width=device-width" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
   </head>
 
   <body id="tontu">
-    <div
-      class="
+    <div class="
         w-full
         h-auto
         bg-tontupage
@@ -30,19 +20,10 @@
         bg-no-repeat bg-contain
         relative
         z-10
-      "
-    >
-      <img
-        src="images/tontu/tontu.svg"
-        class="md:hidden w-full relative top-0 opacity-0"
-      />
-      <img
-        src="images/tontu/tontu2.svg"
-        class="hidden md:block opacity-0 w-full relative top-0"
-      />
-      <a
-        href="index.html"
-        class="
+      ">
+      <img src="/tontu.HASH_REF_6149aec9f1469206024ede8453e68a36.svg" class="md:hidden w-full relative top-0 opacity-0">
+      <img src="/tontu2.HASH_REF_7546a325b9c43d56aa559b2806fd7948.svg" class="hidden md:block opacity-0 w-full relative top-0">
+      <a href="/index.html" class="
           w-14
           md:w-20
           h-14
@@ -53,12 +34,10 @@
           left-5
           md:left-8
           z-40
-        "
-      >
-        <img src="images/back-arrow.svg" class="w-14 md:w-20 absolute" />
+        ">
+        <img src="/back-arrow.HASH_REF_6206a5060d972c2479c439745e514bcc.svg" class="w-14 md:w-20 absolute">
       </a>
-      <div
-        class="
+      <div class="
           absolute
           top-0
           w-full
@@ -66,10 +45,8 @@
           md:h-8/10
           flex flex-col
           content-center
-        "
-      >
-        <h1
-          class="
+        ">
+        <h1 class="
             font-bold
             text-7.5xl
             sm:text-9xl
@@ -81,14 +58,12 @@
             tracking-wide
             text-tontu
             my-auto
-          "
-        >
+          ">
           Tontu
         </h1>
       </div>
     </div>
-    <div
-      class="
+    <div class="
         block
         md:flex
         flex-row
@@ -96,10 +71,8 @@
         xl:w-270
         md:mx-auto md:mt-9 md:mb-14
         xl:mb-20
-      "
-    >
-      <h1
-        class="
+      ">
+      <h1 class="
           font-roboto font-medium
           text-4.5xl
           xl:text-7xl
@@ -109,12 +82,10 @@
           md:mt-0
           mb-1
           md:mb-0
-        "
-      >
+        ">
         Project
       </h1>
-      <h1
-        class="
+      <h1 class="
           font-roboto font-light
           text-xxs
           xl:text-lg
@@ -126,8 +97,7 @@
           mb-14
           md:mb-0 md:ml-20
           xl:ml-36
-        "
-      >
+        ">
         This project was a <strong class="font-medium">48 hour</strong> design
         <strong class="font-medium">hackathon,</strong> where groups of 5 had to
         develop a smart system to
@@ -139,10 +109,9 @@
         the competition.
       </h1>
     </div>
-    <img src="images/tontu/tontu-video.svg" class="w-full h-auto" />
+    <img src="/tontu-video.HASH_REF_121170610074a27c7b6a6ee2cdcc4b51.svg" class="w-full h-auto">
     <div class="bg-bg_grey mt-14 xl:mt-24 py-14 xl:py-20">
-      <h1
-        class="
+      <h1 class="
           font-roboto font-medium
           text-4.5xl
           xl:text-6.5xl
@@ -155,12 +124,10 @@
           xl:w-270
           mx-auto
           leading-none
-        "
-      >
+        ">
         Brand Guidelines
       </h1>
-      <h1
-        class="
+      <h1 class="
           font-roboto font-light
           text-xxs
           xl:text-base
@@ -170,8 +137,7 @@
           text-center
           md:text-left
           mx-auto
-        "
-      >
+        ">
         To create a
         <strong class="font-medium">professional and cohesive</strong>
         presentation, brand guidelines needed to be defined. First a name was
@@ -185,8 +151,7 @@
         <strong class="font-medium">green</strong> was used a lot to emphasise
         <strong class="font-medium">renewables and positivity.</strong>
       </h1>
-      <div
-        class="
+      <div class="
           w-64
           md:w-150
           xl:w-270
@@ -198,10 +163,8 @@
           mx-auto
           mt-10
           dropshadow
-        "
-      >
-        <div
-          class="
+        ">
+        <div class="
             h-64
             md:h-32
             xl:h-44
@@ -210,10 +173,8 @@
             xl:w-270
             bg-bg_grey
             rounded-2xl
-          "
-        >
-          <h1
-            class="
+          ">
+          <h1 class="
               font-roboto font-medium
               text-xs
               xl:text-base
@@ -225,13 +186,11 @@
               pt-3.5
               pl-5
               uppercase
-            "
-          >
+            ">
             Company name
           </h1>
           <div class="block md:flex flex-row md:w-150 xl:w-270 md:px-5">
-            <h1
-              class="
+            <h1 class="
                 tontutext
                 w-64
                 md:w-40
@@ -247,12 +206,10 @@
                 md:py-0 md:mt-2
                 xl:mt-4
                 md:pr-2
-              "
-            >
+              ">
               tontu <strong class="hidden md:inline-block">-</strong>
             </h1>
-            <h1
-              class="
+            <h1 class="
                 font-roboto font-light
                 text-xxs
                 xl:text-base
@@ -263,8 +220,7 @@
                 md:mx-0
                 px-5
                 md:px-0
-              "
-            >
+              ">
               A tonttu is a mythological creature from Nordic folklore today
               typically associated with the winter solstice and the Christmas
               season. According to tradition, the tonttu lives in the houses and
@@ -277,19 +233,16 @@
           </div>
         </div>
       </div>
-      <div
-        class="
+      <div class="
           flex flex-col
           md:flex-row md:justify-between md:w-150
           xl:w-270
           md:mx-auto
-        "
-      >
+        ">
         <div class="flex flex-row w-64 mx-auto md:mx-0">
           <div class="w-20 xl:w-36 h-28 xl:h-40 text-center mt-6 dropshadow">
             <div class="h-28 xl:h-40 w-20 xl:w-36 bg-bg_grey rounded-2xl">
-              <h1
-                class="
+              <h1 class="
                   font-roboto font-medium
                   text-xs
                   xl:text-base
@@ -300,12 +253,10 @@
                   pt-3
                   pl-2
                   uppercase
-                "
-              >
+                ">
                 Title
               </h1>
-              <h1
-                class="
+              <h1 class="
                   font-roboto font-light
                   text-xxs
                   xl:text-sm
@@ -315,12 +266,10 @@
                   mx-auto
                   px-2
                   leading-tight
-                "
-              >
+                ">
                 Arial Rounded MT Bold - 60
               </h1>
-              <h1
-                class="
+              <h1 class="
                   tontutext
                   w-20
                   text-center
@@ -328,14 +277,12 @@
                   text-4xl
                   xl:text-6.5xl xl:pt-4
                   py-1
-                "
-              >
+                ">
                 Aa
               </h1>
             </div>
           </div>
-          <div
-            class="
+          <div class="
               w-20
               xl:w-36
               h-28
@@ -345,11 +292,9 @@
               md:ml-10
               mt-6
               dropshadow
-            "
-          >
+            ">
             <div class="h-28 xl:h-40 w-20 xl:w-36 bg-bg_grey rounded-2xl">
-              <h1
-                class="
+              <h1 class="
                   font-roboto font-medium
                   text-xs
                   xl:text-base
@@ -360,12 +305,10 @@
                   pt-3
                   pl-2
                   uppercase
-                "
-              >
+                ">
                 Body
               </h1>
-              <h1
-                class="
+              <h1 class="
                   font-roboto font-light
                   text-xxs
                   xl:text-sm
@@ -374,13 +317,11 @@
                   text-left
                   mx-auto
                   px-2
-                "
-              >
+                ">
                 Comfortaa 18
-                <br /><br />
+                <br><br>
               </h1>
-              <h1
-                class="
+              <h1 class="
                   tontutext2
                   w-20
                   xl:w-32
@@ -389,14 +330,12 @@
                   text-4xl
                   xl:text-6.5xl xl:pt-5
                   py-1
-                "
-              >
+                ">
                 Aa
               </h1>
             </div>
           </div>
-          <div
-            class="
+          <div class="
               w-16
               xl:w-30
               h-28
@@ -406,11 +345,9 @@
               md:ml-10
               mt-6
               dropshadow
-            "
-          >
+            ">
             <div class="h-28 xl:h-40 w-16 xl:w-30 bg-bg_grey rounded-2xl">
-              <h1
-                class="
+              <h1 class="
                   font-roboto font-medium
                   text-xs
                   xl:text-base
@@ -422,12 +359,10 @@
                   pl-2
                   xl:pl-4
                   uppercase
-                "
-              >
+                ">
                 Sliders
               </h1>
-              <h1
-                class="
+              <h1 class="
                   font-roboto font-light
                   text-xxs
                   xl:text-sm
@@ -439,16 +374,11 @@
                   xl:px-4
                   pt-1
                   uppercase
-                "
-              >
+                ">
                 On
               </h1>
-              <img
-                src="images/tontu/slider-on.svg"
-                class="w-auto h-4 xl:h-8 pl-2 xl:pl-4"
-              />
-              <h1
-                class="
+              <img src="/slider-on.HASH_REF_083ae81500b212fd9d8d6cb86687595f.svg" class="w-auto h-4 xl:h-8 pl-2 xl:pl-4">
+              <h1 class="
                   font-roboto font-light
                   text-xxs
                   xl:text-sm
@@ -460,19 +390,14 @@
                   xl:px-4
                   pt-2
                   uppercase
-                "
-              >
+                ">
                 Off
               </h1>
-              <img
-                src="images/tontu/slider-off.svg"
-                class="w-auto h-4 xl:h-8 pl-2 xl:pl-4"
-              />
+              <img src="/slider-off.HASH_REF_7ddde7d6c006cd6b6933e09d28ebd72e.svg" class="w-auto h-4 xl:h-8 pl-2 xl:pl-4">
             </div>
           </div>
         </div>
-        <div
-          class="
+        <div class="
             w-64
             xl:w-140
             h-28
@@ -482,11 +407,9 @@
             md:mx-0
             mt-6
             dropshadow
-          "
-        >
+          ">
           <div class="h-28 xl:h-40 w-64 xl:w-140 bg-bg_grey rounded-2xl">
-            <h1
-              class="
+            <h1 class="
                 font-roboto font-medium
                 text-xs
                 xl:text-base
@@ -498,14 +421,12 @@
                 pl-3
                 xl:pl-4
                 uppercase
-              "
-            >
+              ">
               Button
             </h1>
             <div class="flex flex-row justify-between">
               <div>
-                <h1
-                  class="
+                <h1 class="
                     font-roboto font-light
                     text-xxs
                     xl:text-sm
@@ -516,20 +437,15 @@
                     xl:px-4
                     leading-tight
                     xl:leading-4 xl:pt-2
-                  "
-                >
-                  Style 1 <br />
+                  ">
+                  Style 1 <br>
                   Black background
-                  <br />White text
+                  <br>White text
                 </h1>
-                <img
-                  src="images/tontu/button1.svg"
-                  class="w-auto h-5 xl:h-10 xl:mt-3 px-3 xl:px-4"
-                />
+                <img src="/button1.HASH_REF_1f7539ddcf247c09a5ef6656fd568b41.svg" class="w-auto h-5 xl:h-10 xl:mt-3 px-3 xl:px-4">
               </div>
               <div>
-                <h1
-                  class="
+                <h1 class="
                     font-roboto font-light
                     text-xxs
                     xl:text-sm
@@ -540,20 +456,15 @@
                     xl:px-4
                     leading-tight
                     xl:leading-4 xl:pt-2
-                  "
-                >
-                  Style 2 <br />
+                  ">
+                  Style 2 <br>
                   Black background
-                  <br />White text
+                  <br>White text
                 </h1>
-                <img
-                  src="images/tontu/button2.svg"
-                  class="ww-auto h-5 xl:h-10 xl:mt-3 px-3 xl:px-4"
-                />
+                <img src="/button2.HASH_REF_718bd56b2c8ac27fc8027ef1d814160e.svg" class="ww-auto h-5 xl:h-10 xl:mt-3 px-3 xl:px-4">
               </div>
               <div>
-                <h1
-                  class="
+                <h1 class="
                     font-roboto font-light
                     text-xxs
                     xl:text-sm
@@ -564,23 +475,18 @@
                     xl:px-4
                     leading-tight
                     xl:leading-4 xl:pt-2
-                  "
-                >
-                  Style 3 <br />
+                  ">
+                  Style 3 <br>
                   Black background
-                  <br />White text
+                  <br>White text
                 </h1>
-                <img
-                  src="images/tontu/button3.svg"
-                  class="w-auto h-5 xl:h-10 xl:mt-3 px-3 xl:px-4"
-                />
+                <img src="/button3.HASH_REF_ee74b9c96b88954258e48b0d4d971713.svg" class="w-auto h-5 xl:h-10 xl:mt-3 px-3 xl:px-4">
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div
-        class="
+      <div class="
           w-64
           md:w-150
           xl:w-270
@@ -591,10 +497,8 @@
           mx-auto
           mt-6
           dropshadow
-        "
-      >
-        <div
-          class="
+        ">
+        <div class="
             h-85
             md:h-30
             xl:h-50
@@ -603,10 +507,8 @@
             xl:w-270
             bg-bg_grey
             rounded-2xl
-          "
-        >
-          <h1
-            class="
+          ">
+          <h1 class="
               font-roboto font-medium
               text-xs
               xl:text-base
@@ -618,24 +520,16 @@
               pt-3.5
               pl-6
               uppercase
-            "
-          >
+            ">
             Colours
           </h1>
-          <img
-            src="images/tontu/colours.svg"
-            class="w-auto h-72 px-6 pt-2 md:hidden"
-          />
-          <img
-            src="images/tontu/colours2.svg"
-            class="h-auto w-150 xl:w-270 px-6 pt-2 xl:pt-3 hidden md:block"
-          />
+          <img src="/colours.HASH_REF_4f7e2bad6b4a1174929f749a3676049e.svg" class="w-auto h-72 px-6 pt-2 md:hidden">
+          <img src="/colours2.HASH_REF_ceda84b1a680b6c6d32c776ac5e96838.svg" class="h-auto w-150 xl:w-270 px-6 pt-2 xl:pt-3 hidden md:block">
         </div>
       </div>
     </div>
     <div class="bg-bg_grey mt-14 xl:mt-24 py-14 xl:py-20">
-      <h1
-        class="
+      <h1 class="
           font-roboto font-medium
           text-4.5xl
           xl:text-6.5xl
@@ -648,12 +542,10 @@
           xl:w-270
           mx-auto
           leading-none
-        "
-      >
+        ">
         UX and UI Design of App
       </h1>
-      <h1
-        class="
+      <h1 class="
           font-roboto font-light
           text-xxs
           xl:text-base
@@ -663,8 +555,7 @@
           text-center
           md:text-left
           mx-auto
-        "
-      >
+        ">
         The app had to be <strong class="font-medium">very simple</strong> to
         use, as the aim of tontu is to empower users to use less energy hence
         they must be able to <strong class="font-medium">quickly</strong> see
@@ -679,28 +570,18 @@
         <strong class="font-medium">mock functional prototype</strong> could be
         displayed.
       </h1>
-      <img
-        src="images/tontu/apps.svg"
-        class="hidden md:block w-150 xl:w-270 h-auto mt-10 mx-auto"
-      />
+      <img src="/apps.HASH_REF_0ebb97a7766b1e35137e3d0362402acc.svg" class="hidden md:block w-150 xl:w-270 h-auto mt-10 mx-auto">
       <div class="md:hidden mt-10 flex flex-row justify-between w-70 mx-auto">
         <div class="h-auto w-10 relative">
-          <img
-            id="tontu-arrow-left-faded"
-            src="images/tontu/left-arrow-faded.svg"
-            class="
+          <img id="tontu-arrow-left-faded" src="/left-arrow-faded.HASH_REF_4bdeadd8d3509e8414c9e90ecda5c1a9.svg" class="
               transition-all
               duration-200
               ease-in-out
               absolute
               top-32
               delay-75
-            "
-          />
-          <img
-            id="tontu-arrow-left"
-            src="images/tontu/left-arrow.svg"
-            class="
+            ">
+          <img id="tontu-arrow-left" src="/left-arrow.HASH_REF_ff653489d538a8e0409526b9b1ed3e3d.svg" class="
               transition-all
               duration-200
               ease-in-out
@@ -712,34 +593,14 @@
               delay-75
               cursor-pointer
               opacity-0
-            "
-          />
+            ">
         </div>
-        <img
-          id="phone-screen1"
-          src="images/tontu/app1.svg"
-          class="w-auto h-80 my-auto phone-screen"
-        />
-        <img
-          id="phone-screen2"
-          src="images/tontu/app2.svg"
-          class="w-auto h-80 my-auto hidden phone-screen"
-        />
-        <img
-          id="phone-screen3"
-          src="images/tontu/app3.svg"
-          class="w-auto h-80 my-auto hidden phone-screen"
-        />
-        <img
-          id="phone-screen4"
-          src="images/tontu/app4.svg"
-          class="w-auto h-80 my-auto hidden phone-screen"
-        />
+        <img id="phone-screen1" src="/app1.HASH_REF_e04e75f99297f0993f8933419eaa4daa.svg" class="w-auto h-80 my-auto phone-screen">
+        <img id="phone-screen2" src="/app2.HASH_REF_82a8d108c45e7660fead57524cd20c64.svg" class="w-auto h-80 my-auto hidden phone-screen">
+        <img id="phone-screen3" src="/app3.HASH_REF_1836baf035ece7a948ff1828e7fcaa58.svg" class="w-auto h-80 my-auto hidden phone-screen">
+        <img id="phone-screen4" src="/app4.HASH_REF_4475d71d648c0811be6db1bc0274dc36.svg" class="w-auto h-80 my-auto hidden phone-screen">
         <div class="h-auto w-10 relative">
-          <img
-            id="tontu-arrow-right-faded"
-            src="images/tontu/right-arrow-faded.svg"
-            class="
+          <img id="tontu-arrow-right-faded" src="/right-arrow-faded.HASH_REF_e30542910b3afb61fd3937f6dcdc6f2c.svg" class="
               transition-all
               duration-200
               ease-in-out
@@ -747,12 +608,8 @@
               opacity-0
               top-32
               delay-75
-            "
-          />
-          <img
-            id="tontu-arrow-right"
-            src="images/tontu/right-arrow.svg"
-            class="
+            ">
+          <img id="tontu-arrow-right" src="/right-arrow.HASH_REF_0ec599f2fa0a2c483a59f272691665a7.svg" class="
               transition-all
               duration-200
               ease-in-out
@@ -763,11 +620,10 @@
               hover:scale-110 hover:-translate-y-1
               delay-75
               cursor-pointer
-            "
-          />
+            ">
         </div>
       </div>
     </div>
-    <script type="module" src="index.js"></script>
+    <script type="module" src="/tontu.HASH_REF_0fa2489aa94c8731ee2aee9f3fafb3e2.js"></script>
   </body>
 </html>
