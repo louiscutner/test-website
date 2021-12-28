@@ -19,7 +19,16 @@
   <body>
     <div class="block xl:flex xl:flex-row">
       <div
-        class="bg-white h-150 w-full xl:w-2/5 z-20 relative xl:fixed xl:pl-1/10"
+        class="
+          bg-white
+          h-96
+          sm:h-150
+          w-full
+          xl:w-2/5
+          z-20
+          relative
+          xl:fixed xl:pl-1/10
+        "
       >
         <h1
           class="
@@ -29,7 +38,8 @@
             font-roboto
             text-center
             xl:text-left
-            leading-snug
+            leading-none
+            sm:leading-snug
             textpadding
           "
         >
@@ -37,6 +47,8 @@
         </h1>
         <h1
           class="
+            hidden
+            sm:block
             font-light
             text-3xl
             uppercase
@@ -50,6 +62,8 @@
         </h1>
         <h1
           class="
+            hidden
+            sm:block
             font-light
             text-3xl
             uppercase
@@ -63,6 +77,8 @@
         </h1>
         <h1
           class="
+            hidden
+            sm:block
             font-light
             text-3xl
             uppercase
@@ -74,7 +90,9 @@
         >
           Artist
         </h1>
-        <div class="flex flex-row justify-center xl:justify-start pt-10">
+        <div
+          class="flex flex-row justify-center xl:justify-start pt-8 sm:pt-10"
+        >
           <img src="images/cv-icon.svg" class="h-7 w-7 mr-2.5" />
           <div class="h-7 w-7 rounded-full bg-black text-center mx-2.5">
             <i class="fas fa-envelope text-white text-sm align-middle"></i>
@@ -100,12 +118,14 @@
         >
           About me
         </h1>
-        <img
-          src="images/down-arrow.svg"
-          class="h-16 md:h-20 w-16 md:w-20 mt-11 mx-auto xl:hidden"
-        />
+        <a href="#tonus" class="">
+          <img
+            src="images/down-arrow.svg"
+            class="h-16 md:h-20 w-16 md:w-20 sm:mt-11 mt-9 mx-auto xl:hidden"
+          />
+        </a>
       </div>
-      <div class="xl:w-3/5 xl:left-2/5 xl:absolute">
+      <div id="tonus" class="xl:w-3/5 xl:left-2/5 xl:absolute">
         <a href="#">
           <div
             class="w-full h-auto bg-tonus bg-no-repeat bg-contain relative z-10"

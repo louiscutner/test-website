@@ -26,6 +26,11 @@ const UR_r_faded = document.getElementById("UR-arrow-right-faded");
 const UR_l = document.getElementById("UR-arrow-left");
 const UR_l_faded = document.getElementById("UR-arrow-left-faded");
 const UR_list = document.getElementsByClassName("UR-list");
+const BG_r = document.getElementById("BG-arrow-right");
+const BG_r_faded = document.getElementById("BG-arrow-right-faded");
+const BG_l = document.getElementById("BG-arrow-left");
+const BG_l_faded = document.getElementById("BG-arrow-left-faded");
+const BG_list = document.getElementsByClassName("BG-list");
 
 const buttons = [
   {
@@ -140,6 +145,34 @@ const buttons = [
     siblings: null,
     list: UR_list,
   },
+  {
+    name: BG_r,
+    direction: "right",
+    faded: false,
+    siblings: [BG_l, BG_l_faded, BG_r_faded],
+    list: BG_list,
+  },
+  {
+    name: BG_l,
+    direction: "left",
+    faded: false,
+    siblings: [BG_r, BG_r_faded, BG_l_faded],
+    list: BG_list,
+  },
+  {
+    name: BG_r_faded,
+    direction: "right",
+    faded: true,
+    siblings: null,
+    list: BG_list,
+  },
+  {
+    name: BG_l_faded,
+    direction: "left",
+    faded: true,
+    siblings: null,
+    list: BG_list,
+  },
 ];
 
 const rightClick = function (name, siblings, list) {
@@ -199,15 +232,17 @@ const leftClick = function (name, siblings, list) {
           }
         }
       } else {
-        list[x + 1].classList.add("hidden");
-        list[x - 1].classList.remove("hidden");
-        if (x === list.length - 2) {
-          siblings[1].classList.add("opacity-0");
-          siblings[0].classList.remove("opacity-0");
-        }
-        if (x === 1) {
-          name.classList.add("opacity-0");
-          siblings[2].classList.remove("opacity-0");
+        if (x !== 0) {
+          list[x + 1].classList.add("hidden");
+          list[x - 1].classList.remove("hidden");
+          if (x === list.length - 2) {
+            siblings[1].classList.add("opacity-0");
+            siblings[0].classList.remove("opacity-0");
+          }
+          if (x === 1) {
+            name.classList.add("opacity-0");
+            siblings[2].classList.remove("opacity-0");
+          }
         }
       }
       break;
