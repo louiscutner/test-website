@@ -4,11 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        tonus: "#6F271E",
+        tonus: "#DEFACA",
         tontu: "#00816D",
         skydda: "#D31344",
         bg_grey: "#F7F7F7",
         bg_grey_darker: "#F1F0F0",
+        grey_code: "#DBDADA",
       },
       fontSize: {
         xxs: "0.625rem",
@@ -24,6 +25,8 @@ module.exports = {
         tonus: "url('images/tonus.svg')",
         tontupage: "url('images/tontu/tontu.svg')",
         tontupage2: "url('images/tontu/tontu2.svg')",
+        ticpage: "url('images/tic/tic.svg')",
+        ticpage2: "url('images/tic/tic2.svg')",
         skyddapage: "url('images/skydda/skydda.svg')",
         skyddapage2: "url('images/skydda/skydda2.svg')",
         tontu: "url('images/tontu.svg')",
@@ -35,6 +38,7 @@ module.exports = {
       padding: {
         "1/10": "10%",
         "2/10": "20%",
+        video: "56.25%",
       },
       height: {
         "8/10": "75%",
@@ -42,8 +46,10 @@ module.exports = {
         18: "4.375rem",
         30: "7.5rem",
         38: "9.5rem",
+        43: "10.5rem",
         46: "11.5rem",
         50: "12.5rem",
+        53: "13.3rem",
         61: "17.813rem",
         62: "15.5rem",
         70: "17.5rem",
@@ -51,6 +57,7 @@ module.exports = {
         85: "20.875rem",
         87: "21.813rem",
         90: "22.5rem",
+        99: "24.3rem",
         100: "25rem",
         110: "27.5rem",
         114: "28.5rem",
@@ -69,6 +76,7 @@ module.exports = {
         30: "7.5rem",
         46: "11.5rem",
         50: "12.5rem",
+        62: "15.5rem",
         70: "17.5rem",
         90: "22.5rem",
         100: "25rem",

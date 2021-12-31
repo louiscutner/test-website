@@ -31,6 +31,11 @@ const BG_r_faded = document.getElementById("BG-arrow-right-faded");
 const BG_l = document.getElementById("BG-arrow-left");
 const BG_l_faded = document.getElementById("BG-arrow-left-faded");
 const BG_list = document.getElementsByClassName("BG-list");
+const tic_r = document.getElementById("tic-arrow-right");
+const tic_r_faded = document.getElementById("tic-arrow-right-faded");
+const tic_l = document.getElementById("tic-arrow-left");
+const tic_l_faded = document.getElementById("tic-arrow-left-faded");
+const tic_list = document.getElementsByClassName("tic-list");
 
 const buttons = [
   {
@@ -172,6 +177,34 @@ const buttons = [
     faded: true,
     siblings: null,
     list: BG_list,
+  },
+  {
+    name: tic_r,
+    direction: "right",
+    faded: false,
+    siblings: [tic_l, tic_l_faded, tic_r_faded],
+    list: tic_list,
+  },
+  {
+    name: tic_l,
+    direction: "left",
+    faded: false,
+    siblings: [tic_r, tic_r_faded, tic_l_faded],
+    list: tic_list,
+  },
+  {
+    name: tic_r_faded,
+    direction: "right",
+    faded: true,
+    siblings: null,
+    list: tic_list,
+  },
+  {
+    name: tic_l_faded,
+    direction: "left",
+    faded: true,
+    siblings: null,
+    list: tic_list,
   },
 ];
 
