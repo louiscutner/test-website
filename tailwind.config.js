@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       colors: {
         tonus: "#DEFACA",
+        tonus_dark_green: "#6B7E1B",
+        tonus_light_green: "#E7FDE0",
         tontu: "#00816D",
         skydda: "#D31344",
         bg_grey: "#F7F7F7",
@@ -25,6 +27,8 @@ module.exports = {
         tonus: "url('images/tonus.svg')",
         tontupage: "url('images/tontu/tontu.svg')",
         tontupage2: "url('images/tontu/tontu2.svg')",
+        tonuspage: "url('images/tonus/tonusbg.svg')",
+        tonuspage2: "url('images/tonus/tonusbg2.svg')",
         ticpage: "url('images/tic/tic.svg')",
         ticpage2: "url('images/tic/tic2.svg')",
         skyddapage: "url('images/skydda/skydda.svg')",
@@ -43,6 +47,7 @@ module.exports = {
       height: {
         "8/10": "75%",
         "9/10": "90%",
+        0.75: "0.1875rem",
         18: "4.375rem",
         30: "7.5rem",
         38: "9.5rem",
@@ -72,6 +77,7 @@ module.exports = {
         200: "50rem",
       },
       width: {
+        21: "5.25rem",
         22: "5.5rem",
         30: "7.5rem",
         46: "11.5rem",

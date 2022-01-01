@@ -36,6 +36,38 @@ const tic_r_faded = document.getElementById("tic-arrow-right-faded");
 const tic_l = document.getElementById("tic-arrow-left");
 const tic_l_faded = document.getElementById("tic-arrow-left-faded");
 const tic_list = document.getElementsByClassName("tic-list");
+const home_content = document.getElementById("home-content");
+const about_text = document.getElementById("about-text");
+const about_cross = document.getElementById("about-cross");
+const about_button = document.getElementById("about");
+const body_xl = document.getElementById("body-xl");
+const about_text_xl = document.getElementById("about-text-xl");
+const about_cross_xl = document.getElementById("about-cross-xl");
+const about_button_xl = document.getElementById("about-xl");
+const P1_r = document.getElementById("P1-arrow-right");
+const P1_r_faded = document.getElementById("P1-arrow-right-faded");
+const P1_l = document.getElementById("P1-arrow-left");
+const P1_l_faded = document.getElementById("P1-arrow-left-faded");
+const P1_list = document.getElementsByClassName("P1-list");
+const P2_r = document.getElementById("P2-arrow-right");
+const P2_r_faded = document.getElementById("P2-arrow-right-faded");
+const P2_l = document.getElementById("P2-arrow-left");
+const P2_l_faded = document.getElementById("P2-arrow-left-faded");
+const P2_list = document.getElementsByClassName("P2-list");
+const prototype_section = document.getElementById("prototype");
+const prototype_clicked = document.getElementById("prototype-clicked");
+const prototype_unclicked = document.getElementById("prototype-unclicked");
+const app_section = document.getElementById("app");
+const app_clicked = document.getElementById("app-clicked");
+const app_unclicked = document.getElementById("app-unclicked");
+const cad_section = document.getElementById("cad");
+const cad_clicked = document.getElementById("cad-clicked");
+const cad_unclicked = document.getElementById("cad-unclicked");
+const A1_r = document.getElementById("A1-arrow-right");
+const A1_r_faded = document.getElementById("A1-arrow-right-faded");
+const A1_l = document.getElementById("A1-arrow-left");
+const A1_l_faded = document.getElementById("A1-arrow-left-faded");
+const A1_list = document.getElementsByClassName("A1-list");
 
 const buttons = [
   {
@@ -67,34 +99,6 @@ const buttons = [
     list: skydda_list,
   },
   {
-    name: tontu_r_faded,
-    direction: "right",
-    faded: true,
-    siblings: null,
-    list: phone_list,
-  },
-  {
-    name: tontu_l_faded,
-    direction: "left",
-    faded: true,
-    siblings: null,
-    list: phone_list,
-  },
-  {
-    name: skydda_r_faded,
-    direction: "right",
-    faded: true,
-    siblings: null,
-    list: skydda_list,
-  },
-  {
-    name: skydda_l_faded,
-    direction: "left",
-    faded: true,
-    siblings: null,
-    list: skydda_list,
-  },
-  {
     name: skydda_r_md,
     direction: "right",
     faded: false,
@@ -106,20 +110,6 @@ const buttons = [
     direction: "left",
     faded: false,
     siblings: [skydda_r_md, skydda_r_faded_md, skydda_l_faded_md],
-    list: skydda_list_md,
-  },
-  {
-    name: skydda_r_faded_md,
-    direction: "right",
-    faded: true,
-    siblings: null,
-    list: skydda_list_md,
-  },
-  {
-    name: skydda_l_faded_md,
-    direction: "left",
-    faded: true,
-    siblings: null,
     list: skydda_list_md,
   },
   {
@@ -137,20 +127,6 @@ const buttons = [
     list: UR_list,
   },
   {
-    name: UR_r_faded,
-    direction: "right",
-    faded: true,
-    siblings: null,
-    list: UR_list,
-  },
-  {
-    name: UR_l_faded,
-    direction: "left",
-    faded: true,
-    siblings: null,
-    list: UR_list,
-  },
-  {
     name: BG_r,
     direction: "right",
     faded: false,
@@ -162,20 +138,6 @@ const buttons = [
     direction: "left",
     faded: false,
     siblings: [BG_r, BG_r_faded, BG_l_faded],
-    list: BG_list,
-  },
-  {
-    name: BG_r_faded,
-    direction: "right",
-    faded: true,
-    siblings: null,
-    list: BG_list,
-  },
-  {
-    name: BG_l_faded,
-    direction: "left",
-    faded: true,
-    siblings: null,
     list: BG_list,
   },
   {
@@ -193,18 +155,67 @@ const buttons = [
     list: tic_list,
   },
   {
-    name: tic_r_faded,
+    name: P1_r,
     direction: "right",
-    faded: true,
-    siblings: null,
-    list: tic_list,
+    faded: false,
+    siblings: [P1_l, P1_l_faded, P1_r_faded],
+    list: P1_list,
   },
   {
-    name: tic_l_faded,
+    name: P1_l,
     direction: "left",
-    faded: true,
-    siblings: null,
-    list: tic_list,
+    faded: false,
+    siblings: [P1_r, P1_r_faded, P1_l_faded],
+    list: P1_list,
+  },
+  {
+    name: P2_r,
+    direction: "right",
+    faded: false,
+    siblings: [P2_l, P2_l_faded, P2_r_faded],
+    list: P2_list,
+  },
+  {
+    name: P2_l,
+    direction: "left",
+    faded: false,
+    siblings: [P2_r, P2_r_faded, P2_l_faded],
+    list: P2_list,
+  },
+  {
+    name: A1_r,
+    direction: "right",
+    faded: false,
+    siblings: [A1_l, A1_l_faded, A1_r_faded],
+    list: A1_list,
+  },
+  {
+    name: A1_l,
+    direction: "left",
+    faded: false,
+    siblings: [A1_r, A1_r_faded, A1_l_faded],
+    list: A1_list,
+  },
+];
+
+const tonus_buttons = [
+  {
+    clicked: true,
+    btn_clicked: prototype_clicked,
+    btn_unclicked: prototype_unclicked,
+    section: prototype_section,
+  },
+  {
+    clicked: false,
+    btn_clicked: app_clicked,
+    btn_unclicked: app_unclicked,
+    section: app_section,
+  },
+  {
+    clicked: false,
+    btn_clicked: cad_clicked,
+    btn_unclicked: cad_unclicked,
+    section: cad_section,
   },
 ];
 
@@ -291,6 +302,58 @@ for (let x = 0; x < buttons.length; x++) {
           rightClick(buttons[x].name, buttons[x].siblings, buttons[x].list);
         } else {
           leftClick(buttons[x].name, buttons[x].siblings, buttons[x].list);
+        }
+      }
+    });
+  }
+}
+
+if (about_button !== null) {
+  about_button.addEventListener("click", (e) => {
+    console.log("hi");
+    home_content.classList.add("blur");
+    about_text.classList.remove("opacity-0");
+    about_text.classList.remove("z-0");
+    about_text.classList.add("z-50");
+  });
+
+  about_cross.addEventListener("click", (e) => {
+    console.log("hi");
+    home_content.classList.remove("blur");
+    about_text.classList.add("opacity-0");
+    about_text.classList.add("z-0");
+    about_text.classList.remove("z-50");
+  });
+
+  about_button_xl.addEventListener("click", (e) => {
+    body_xl.classList.add("blur");
+    about_text_xl.classList.remove("opacity-0");
+    about_text_xl.classList.remove("z-0");
+    about_text_xl.classList.add("z-50");
+  });
+
+  about_cross_xl.addEventListener("click", (e) => {
+    body_xl.classList.remove("blur");
+    about_text_xl.classList.add("opacity-0");
+    about_text_xl.classList.add("z-0");
+    about_text_xl.classList.remove("z-50");
+  });
+}
+
+for (let x = 0; x < tonus_buttons.length; x++) {
+  if (tonus_buttons[x].section !== null) {
+    tonus_buttons[x].btn_unclicked.addEventListener("click", (e) => {
+      for (let y = 0; y < tonus_buttons.length; y++) {
+        if (tonus_buttons[y] === tonus_buttons[x]) {
+          tonus_buttons[y].btn_clicked.classList.remove("opacity-0");
+          tonus_buttons[y].btn_unclicked.classList.add("opacity-0");
+          tonus_buttons[y].section.classList.remove("hidden");
+          tonus_buttons[y].clicked = true;
+        } else if (tonus_buttons[y].clicked === true) {
+          tonus_buttons[y].btn_clicked.classList.add("opacity-0");
+          tonus_buttons[y].btn_unclicked.classList.remove("opacity-0");
+          tonus_buttons[y].section.classList.add("hidden");
+          tonus_buttons[y].clicked = false;
         }
       }
     });
