@@ -12,6 +12,7 @@
     "tailwindcss": "^2.0.4"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.4"
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "smoothscroll-polyfill": "^0.4.4"
   }
 }
