@@ -4,18 +4,18 @@ import "@fortawesome/fontawesome-free/js/brands";
 
 import "./index.css";
 
-import smoothscroll from "smoothscroll-polyfill";
+// import smoothscroll from "smoothscroll-polyfill";
 
 // kick off the polyfill!
-smoothscroll.polyfill();
+// smoothscroll.polyfill();
 
-const down_arrow = document.getElementById("down-arrow");
+// const down_arrow = document.getElementById("down-arrow");
 
-if (down_arrow !== null) {
-  down_arrow.addEventListener("click", (e) => {
-    document.querySelector("#main-body").scrollIntoView({ behavior: "smooth" });
-  });
-}
+// if (down_arrow !== null) {
+//   down_arrow.addEventListener("click", (e) => {
+//     document.querySelector("#main-body").scrollIntoView({ behavior: "smooth" });
+//   });
+// }
 
 const tontu_r = document.getElementById("tontu-arrow-right");
 const tontu_r_faded = document.getElementById("tontu-arrow-right-faded");
